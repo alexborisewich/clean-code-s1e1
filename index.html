@@ -16,7 +16,7 @@
         <h1 class="title section-add__title">Add Item</h1>
         <div class="section-add__container">
           <input type="text" class="section-add__input task-text">
-          <button class="btn">Add</button>
+          <button class="btn" data-type="add">Add</button>
         </div>
       </section>
       <section class="section-not-done">
@@ -26,8 +26,8 @@
             <input type="checkbox" class="task-item__checkbox">
             <label class="task-item__content task-text">Pay Bills</label>
             <input type="text" class="task-item__editor task-text">
-            <button class="btn">Edit</button>
-            <button class="btn">
+            <button class="btn" data-type="edit">Edit</button>
+            <button class="btn" data-type="delete">
               <img class="btn__img" src="./remove.svg" alt="Remove">
             </button>
           </li>
@@ -35,8 +35,8 @@
             <input type="checkbox" class="task-item__checkbox">
             <label class="task-item__content task-text">Go Shopping</label>
             <input type="text" value="Go Shopping" class="task-item__editor task-text">
-            <button class="btn">Save</button>
-            <button class="btn">
+            <button class="btn" data-type="edit">Save</button>
+            <button class="btn" data-type="delete">
               <img class="btn__img" src="./remove.svg" alt="Remove">
             </button>
           </li>
@@ -49,8 +49,8 @@
             <input type="checkbox" checked class="task-item__checkbox">
             <label class="task-item__content task-text">See the Doctor</label>
             <input type="text" class="task-item__editor task-text">
-            <button class="btn">Edit</button>
-            <button class="btn">
+            <button class="btn" data-type="edit">Edit</button>
+            <button class="btn" data-type="delete">
               <img class="btn__img" src="./remove.svg" alt="Remove">
             </button>
           </li>
