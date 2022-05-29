@@ -52,9 +52,6 @@
   padding: 0;
 }
 
-.task-item {
-}
-
 .section-add__input,
 .task-item__checkbox,
 .task-item__editor,
@@ -107,9 +104,6 @@
   margin: 0 0 20px;
 }
 
-.section-add__input {
-}
-
 /* Task list */
 
 .task-item {
@@ -120,9 +114,6 @@
   list-style: none;
 }
 
-.task-item > * {
-}
-
 .task-item > .task-item__checkbox {
   margin: 0 10px;
 }
@@ -130,9 +121,6 @@
 .task-item > .task-item__content {
   padding-left: 10px;
   font-size: 18px;
-}
-
-.task-item > .task-item__editor {
 }
 
 .btn__img {
