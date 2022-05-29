@@ -14,6 +14,7 @@
 }
 
 .matrix__img {
+  display: block;
   width: 100%;
 }
 
@@ -39,6 +40,10 @@
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+}
+
+.section-add {
+  margin: 16px 0;
 }
 
 .section-add__container {
@@ -91,7 +96,7 @@
   margin: 0;
   font: 18px 'Lato', sans-serif;
   line-height: 18px;
-  height: 21px;
+  height: 19px;
   padding: 0 9px;
   border: 1px solid #ddd;
   background: #fff;
@@ -146,6 +151,8 @@
 }
 
 .btn__img {
+  display: block;
+  margin: 0 auto;
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
